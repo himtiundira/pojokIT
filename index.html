@@ -1,11 +1,67 @@
-<!DOCTYPE html>
-<html lang="id">
+<!doctype html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pojok IT HIMTI</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>HIMTI | POJOK IT</title>
 </head>
+
 <body>
-    Hello World
+    <!-- component -->
+    <div class="h-screen flex items-center flex-col justify-center bg-gray-200">
+
+        <!-- Card -->
+        <card class="bg-white p-8 w-[32rem] rounded">
+
+            <!-- Header -->
+            <header class="flex font-light text-sm items-center">
+                <img src="https://avatars.githubusercontent.com/u/129246035?s=200&v=4" alt="Logo HIMTI"
+                    class="h-8 w-8 rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 rotate-90 -ml-1" viewBox="0 0 24 24"
+                    stroke="#b91c1c">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4" />
+                </svg>
+                <p>HIMTI UNDIRA</p>
+            </header>
+
+            <!-- Title -->
+            <h2 class="font-bold text-3xl mt-2">
+                POJOK IT Himpunan Mahasiswa Teknik Informatika
+            </h2>
+
+            <!-- Description -->
+            <h3 class="font-bold text-xl mt-5"> Description </h3>
+            <p class="font-light">
+                Tempat kamu diskusi IT bareng pengurus HIMTI dengan topik IT berbeda tiap weekend sambil coding.
+            </p>
+
+            <!-- Tags -->
+            <p class="mt-4">
+                <span class="text-red-600"> Jadwal Pelaksanaan</span>
+            </p>
+            <p>
+                <span>Hari : Setiap Weekend, Sabtu / Minggu.</span> <br>
+                <span>Jam : 13:00 WIB - 16:00 WIB.</span><br>
+                <span>Lokasi : via Google Meet / Ruang Kelas.</span>
+            </p>
+            <!-- Button -->
+            <a href="join.html">
+                <button
+                    class="bg-red-600 cursor-pointer text-white font-semibold py-2 px-5 text-sm mt-6 inline-flex items-center group">
+                    <p> JOIN </p>
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4 ml-1 group-hover:translate-x-2 delay-100 duration-200 ease-in-out" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
+            </a>
+
+        </card>
+        <p class="mt-5">©2025 - Build with ❤️</p>
+    </div>
 </body>
+
 </html>
